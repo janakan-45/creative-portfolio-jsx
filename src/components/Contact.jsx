@@ -25,14 +25,15 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
+            className="mx-auto md:mx-0 max-w-md"
           >
             <h3 className="text-2xl font-semibold mb-6">Get In Touch</h3>
             <p className="text-gray-300 mb-6">
-              Feel free to contact me for any inquiries, opportunities, or just to say hello!
-              I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+              Feel free to contact me through any of the methods below. I'm always open to discussing new projects, 
+              creative ideas, or opportunities to be part of your vision.
             </p>
 
-            <div className="space-y-4">
+            <div className="space-y-6">
               <div className="flex items-center gap-4">
                 <div className="bg-portfolio-primary/20 p-3 rounded-full">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-portfolio-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -90,6 +91,25 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
+              
+              <div className="flex items-center gap-4">
+                <div className="bg-portfolio-primary/20 p-3 rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-portfolio-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-400">GitHub</p>
+                  <a 
+                    href="https://github.com/janakan-45" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-portfolio-secondary transition-colors"
+                  >
+                    github.com/janakan-45
+                  </a>
+                </div>
+              </div>
             </div>
           </motion.div>
 
@@ -98,61 +118,31 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
-            className="glass-card p-6"
+            className="glass-card p-6 mx-auto md:mx-0 max-w-md w-full"
           >
-            <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-            <form className="space-y-4">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  className="contact-input"
-                  placeholder="Your name"
-                />
+            <h3 className="text-2xl font-semibold mb-6">Direct Contact</h3>
+            <div className="space-y-6">
+              <div className="bg-portfolio-primary/10 p-6 rounded-lg">
+                <h4 className="text-xl font-medium mb-3">Preferred Contact Method</h4>
+                <p className="text-gray-300 mb-4">
+                  The fastest way to reach me is through email or LinkedIn message.
+                </p>
+                <a 
+                  href="mailto:sakthiveljanakan@gmail.com" 
+                  className="w-full bg-portfolio-primary hover:bg-portfolio-secondary text-white font-medium py-3 px-4 rounded-md transition-colors duration-300 block text-center"
+                >
+                  Send Email
+                </a>
               </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  className="contact-input"
-                  placeholder="Your email"
-                />
+              
+              <div className="bg-portfolio-primary/10 p-6 rounded-lg">
+                <h4 className="text-xl font-medium mb-3">Office Hours</h4>
+                <p className="text-gray-300">
+                  Monday - Friday: 9:00 AM - 5:00 PM (IST)<br />
+                  I typically respond within 24 hours.
+                </p>
               </div>
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-1">
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  className="contact-input"
-                  placeholder="Subject"
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className="contact-input"
-                  placeholder="Your message"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-portfolio-primary hover:bg-portfolio-secondary text-white font-medium py-3 px-4 rounded-md transition-colors duration-300"
-              >
-                Send Message
-              </button>
-            </form>
+            </div>
           </motion.div>
         </div>
       </div>

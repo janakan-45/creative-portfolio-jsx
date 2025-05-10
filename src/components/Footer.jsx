@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-2xl font-bold gradient-text">
-              Sakthivel<span className="text-white">J</span>
+              Janakan<span className="text-white">S</span>
             </p>
             <p className="text-gray-400 mt-2">Full Stack Developer Intern</p>
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-6 pt-6 text-center">
           <p className="text-gray-500">
-            © {currentYear} Sakthivel Janakan. All rights reserved.
+            © {currentYear} Janakan Sakthivel. All rights reserved.
           </p>
         </div>
       </div>

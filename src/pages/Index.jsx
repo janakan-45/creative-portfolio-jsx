@@ -10,6 +10,10 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 const Index = () => {
+  React.useEffect(() => {
+    document.title = 'Janakan Sakthivel | Full Stack Developer Portfolio';
+  }, []);
+
   return (
     <div className="relative min-h-screen bg-portfolio-dark text-white">
       {/* Background gradient elements */}

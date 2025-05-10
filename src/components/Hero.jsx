@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
           >
             <p className="text-portfolio-secondary font-medium">Hello, I'm</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-              Sakthivel Janakan
+              Janakan Sakthivel
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-300">
               Full Stack Developer <span className="text-portfolio-secondary">Intern</span>
@@ -44,14 +45,14 @@ const Hero = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="hidden md:flex justify-end"
+            className="flex justify-center md:justify-end"
           >
-            <div className="relative w-80 h-80">
+            <div className="relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-portfolio-primary to-portfolio-secondary opacity-20 blur-xl"></div>
-              <div className="absolute inset-4 rounded-full bg-portfolio-dark"></div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-5xl font-bold gradient-text">SJ</span>
-              </div>
+              <Avatar className="w-64 h-64 border-4 border-portfolio-primary/30 rounded-full overflow-hidden">
+                <AvatarImage src="/lovable-uploads/d7aa7e6f-6364-41a1-bdb7-a1fcd55c2f87.png" alt="Janakan Sakthivel" className="object-cover" />
+                <AvatarFallback className="text-5xl font-bold gradient-text">JS</AvatarFallback>
+              </Avatar>
             </div>
           </motion.div>
         </div>
