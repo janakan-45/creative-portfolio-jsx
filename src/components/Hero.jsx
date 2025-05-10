@@ -23,7 +23,7 @@ const Hero = () => {
             </h2>
             <p className="text-gray-400 max-w-lg mt-4">
               A passionate Computer Science student with expertise in web and mobile development.
-              Currently seeking internships to contribute to exciting projects and further develop my skills.
+              Currently working as an intern at VULTURE LINES TECH MANAGEMENT PVT LTD and continuing to develop my skills.
             </p>
             <div className="flex gap-4 mt-6">
               <a 
@@ -50,7 +50,11 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-portfolio-primary to-portfolio-secondary opacity-20 blur-xl"></div>
               <Avatar className="w-64 h-64 border-4 border-portfolio-primary/30 rounded-full overflow-hidden">
-                <AvatarImage src="/lovable-uploads/d7aa7e6f-6364-41a1-bdb7-a1fcd55c2f87.png" alt="Janakan Sakthivel" className="object-cover" />
+                <AvatarImage 
+                  src="/lovable-uploads/d7aa7e6f-6364-41a1-bdb7-a1fcd55c2f87.png" 
+                  alt="Janakan Sakthivel" 
+                  className="object-cover object-[center_top]" 
+                />
                 <AvatarFallback className="text-5xl font-bold gradient-text">JS</AvatarFallback>
               </Avatar>
             </div>

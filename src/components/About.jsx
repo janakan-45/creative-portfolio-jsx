@@ -34,8 +34,8 @@ const About = () => {
             </p>
             <p className="text-gray-300 mb-4">
               I have a solid foundation in programming languages such as Java, Python, and C++, 
-              as well as web development technologies. I'm eager to apply my skills in a real-world 
-              setting through an internship where I can contribute to projects and further develop my expertise.
+              as well as web development technologies. I'm currently working as an intern at VULTURE LINES 
+              TECH MANAGEMENT PVT LTD, an Indian company where I'm gaining valuable industry experience.
             </p>
             <p className="text-gray-300">
               My goal is to become a proficient full-stack developer who can create innovative solutions to real-world problems.
