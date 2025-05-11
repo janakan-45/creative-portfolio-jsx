@@ -123,9 +123,9 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold mb-6">Direct Contact</h3>
             <div className="space-y-6">
               <div className="bg-portfolio-primary/10 p-6 rounded-lg">
-                <h4 className="text-xl font-medium mb-3">Current Status</h4>
+                <h4 className="text-xl font-medium mb-3">Let's Connect</h4>
                 <p className="text-gray-300 mb-4">
-                  I'm currently working as an intern at VULTURE LINES TECH MANAGEMENT PVT LTD, an Indian company.
+                  I'm always interested in new opportunities and collaborations. Feel free to reach out to discuss projects, ideas, or potential roles.
                 </p>
                 <a 
                   href="mailto:sakthiveljanakan@gmail.com" 
