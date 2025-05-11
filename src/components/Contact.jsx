@@ -125,7 +125,7 @@ const Contact = () => {
               <div className="bg-portfolio-primary/10 p-6 rounded-lg">
                 <h4 className="text-xl font-medium mb-3">Let's Connect</h4>
                 <p className="text-gray-300 mb-4">
-                  I'm always interested in new opportunities and collaborations. Feel free to reach out to discuss projects, ideas, or potential roles.
+                  I would be delighted to discuss potential collaborations or opportunities with you. Whether you have a project in mind or simply wish to connect, please don't hesitate to reach out. I'm always eager to engage in meaningful conversations about technology and innovation.
                 </p>
                 <a 
                   href="mailto:sakthiveljanakan@gmail.com" 
